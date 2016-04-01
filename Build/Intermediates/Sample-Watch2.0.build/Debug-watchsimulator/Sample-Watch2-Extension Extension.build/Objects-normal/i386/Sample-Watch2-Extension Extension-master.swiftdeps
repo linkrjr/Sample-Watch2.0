@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "5503a28edeabab41c222fda67068e28c"
+build_time: [512374490, 713452000]
+inputs:
+  "/Users/ronaldogomes/Documents/projects/iphone/samples/Sample-Watch2.0/Sample-Watch2-Extension Extension/NotificationController.swift": [512370479, 0]
+  "/Users/ronaldogomes/Documents/projects/iphone/samples/Sample-Watch2.0/Sample-Watch2-Extension Extension/ExtensionDelegate.swift": [512370479, 0]
+  "/Users/ronaldogomes/Documents/projects/iphone/samples/Sample-Watch2.0/Sample-Watch2-Extension Extension/InterfaceController.swift": [512374490, 0]

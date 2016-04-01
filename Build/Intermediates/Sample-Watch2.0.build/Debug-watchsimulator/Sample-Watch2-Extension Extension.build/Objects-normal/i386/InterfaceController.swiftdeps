@@ -1,0 +1,545 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InterfaceController"
+provides-nominal:
+- "C33Sample_Watch2_Extension_Extension19InterfaceController"
+provides-member:
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", ""]
+provides-dynamic-lookup:
+- "awakeWithContext"
+- "session"
+- "picker"
+- "didDeactivate"
+- "numbers"
+- "willActivate"
+depends-top-level:
+- !private "WKPickerItem"
+- "WCSessionDelegate"
+- "WCSession"
+- "WKInterfaceController"
+- "AnyObject"
+- "Int"
+- "WKInterfacePicker"
+- "InterfaceController"
+- !private "StringLiteralType"
+- "String"
+depends-member:
+- !private ["Ps9AnyObject", "WCSession"]
+- !private ["Ps9AnyObject", "WKPickerItem"]
+- !private ["Ps9AnyObject", "activateSession"]
+- ["Ps9AnyObject", "awakeWithContext"]
+- !private ["Ps9AnyObject", "defaultSession"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didDeactivate"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "numbers"]
+- ["Ps9AnyObject", "picker"]
+- ["Ps9AnyObject", "session"]
+- ["Ps9AnyObject", "sessionDidBecomeInactive"]
+- ["Ps9AnyObject", "sessionDidDeactivate"]
+- ["Ps9AnyObject", "sessionReachabilityDidChange"]
+- ["Ps9AnyObject", "sessionWatchStateDidChange"]
+- !private ["Ps9AnyObject", "setItems"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", "updatePicker"]
+- ["Ps9AnyObject", "willActivate"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "removeAll"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "append"]
+- !private ["Ps23ArrayLiteralConvertible", "removeAll"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "deinit"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "WCSession"]
+- !private ["Ps11CVarArgType", "WKPickerItem"]
+- !private ["Ps11CVarArgType", "activateSession"]
+- ["Ps11CVarArgType", "awakeWithContext"]
+- !private ["Ps11CVarArgType", "defaultSession"]
+- !private ["Ps11CVarArgType", "delegate"]
+- ["Ps11CVarArgType", "didDeactivate"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "numbers"]
+- ["Ps11CVarArgType", "picker"]
+- ["Ps11CVarArgType", "session"]
+- ["Ps11CVarArgType", "sessionDidBecomeInactive"]
+- ["Ps11CVarArgType", "sessionDidDeactivate"]
+- ["Ps11CVarArgType", "sessionReachabilityDidChange"]
+- ["Ps11CVarArgType", "sessionWatchStateDidChange"]
+- !private ["Ps11CVarArgType", "setItems"]
+- !private ["Ps11CVarArgType", "title"]
+- ["Ps11CVarArgType", "updatePicker"]
+- ["Ps11CVarArgType", "willActivate"]
+- ["Ps11CVarArgType", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "append"]
+- !private ["Ps14CollectionType", "removeAll"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "WCSession"]
+- !private ["Ps28CustomDebugStringConvertible", "WKPickerItem"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "activateSession"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- ["Ps28CustomDebugStringConvertible", "awakeWithContext"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultSession"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "didDeactivate"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "numbers"]
+- ["Ps28CustomDebugStringConvertible", "picker"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAll"]
+- ["Ps28CustomDebugStringConvertible", "session"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidDeactivate"]
+- ["Ps28CustomDebugStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps28CustomDebugStringConvertible", "sessionWatchStateDidChange"]
+- !private ["Ps28CustomDebugStringConvertible", "setItems"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", "updatePicker"]
+- ["Ps28CustomDebugStringConvertible", "willActivate"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "WCSession"]
+- !private ["Ps23CustomStringConvertible", "WKPickerItem"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "activateSession"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- ["Ps23CustomStringConvertible", "awakeWithContext"]
+- !private ["Ps23CustomStringConvertible", "defaultSession"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "didDeactivate"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "numbers"]
+- ["Ps23CustomStringConvertible", "picker"]
+- !private ["Ps23CustomStringConvertible", "removeAll"]
+- ["Ps23CustomStringConvertible", "session"]
+- ["Ps23CustomStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps23CustomStringConvertible", "sessionDidDeactivate"]
+- ["Ps23CustomStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps23CustomStringConvertible", "sessionWatchStateDidChange"]
+- !private ["Ps23CustomStringConvertible", "setItems"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", "updatePicker"]
+- ["Ps23CustomStringConvertible", "willActivate"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "WCSession"]
+- !private ["Ps9Equatable", "WKPickerItem"]
+- !private ["Ps9Equatable", "activateSession"]
+- ["Ps9Equatable", "awakeWithContext"]
+- !private ["Ps9Equatable", "defaultSession"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "didDeactivate"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "numbers"]
+- ["Ps9Equatable", "picker"]
+- ["Ps9Equatable", "session"]
+- ["Ps9Equatable", "sessionDidBecomeInactive"]
+- ["Ps9Equatable", "sessionDidDeactivate"]
+- ["Ps9Equatable", "sessionReachabilityDidChange"]
+- ["Ps9Equatable", "sessionWatchStateDidChange"]
+- !private ["Ps9Equatable", "setItems"]
+- !private ["Ps9Equatable", "title"]
+- ["Ps9Equatable", "updatePicker"]
+- ["Ps9Equatable", "willActivate"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "WCSession"]
+- !private ["Ps8Hashable", "WKPickerItem"]
+- !private ["Ps8Hashable", "activateSession"]
+- ["Ps8Hashable", "awakeWithContext"]
+- !private ["Ps8Hashable", "defaultSession"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "didDeactivate"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "numbers"]
+- ["Ps8Hashable", "picker"]
+- ["Ps8Hashable", "session"]
+- ["Ps8Hashable", "sessionDidBecomeInactive"]
+- ["Ps8Hashable", "sessionDidDeactivate"]
+- ["Ps8Hashable", "sessionReachabilityDidChange"]
+- ["Ps8Hashable", "sessionWatchStateDidChange"]
+- !private ["Ps8Hashable", "setItems"]
+- !private ["Ps8Hashable", "title"]
+- ["Ps8Hashable", "updatePicker"]
+- ["Ps8Hashable", "willActivate"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "removeAll"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "AnyObject"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "Int"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "String"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "WCSession"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "WKInterfacePicker"]
+- !private ["C33Sample_Watch2_Extension_Extension19InterfaceController", "WKPickerItem"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "awakeWithContext"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "deinit"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "didDeactivate"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "init"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "numbers"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "picker"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "session"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "sessionDidBecomeInactive"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "sessionDidDeactivate"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "sessionReachabilityDidChange"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "sessionWatchStateDidChange"]
+- !private ["C33Sample_Watch2_Extension_Extension19InterfaceController", "updatePicker"]
+- ["C33Sample_Watch2_Extension_Extension19InterfaceController", "willActivate"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "append"]
+- !private ["Ps21MutableCollectionType", "removeAll"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "removeAll"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "append"]
+- !private ["Ps16MutableSliceable", "removeAll"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "title"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "WCSession"]
+- ["CSo8NSObject", "WKInterfacePicker"]
+- !private ["CSo8NSObject", "WKPickerItem"]
+- !private ["CSo8NSObject", "activateSession"]
+- ["CSo8NSObject", "awakeWithContext"]
+- !private ["CSo8NSObject", "defaultSession"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didDeactivate"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "numbers"]
+- ["CSo8NSObject", "picker"]
+- ["CSo8NSObject", "session"]
+- ["CSo8NSObject", "sessionDidBecomeInactive"]
+- ["CSo8NSObject", "sessionDidDeactivate"]
+- ["CSo8NSObject", "sessionReachabilityDidChange"]
+- ["CSo8NSObject", "sessionWatchStateDidChange"]
+- !private ["CSo8NSObject", "setItems"]
+- !private ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "updatePicker"]
+- ["CSo8NSObject", "willActivate"]
+- !private ["PSo16NSObjectProtocol", "WCSession"]
+- !private ["PSo16NSObjectProtocol", "WKPickerItem"]
+- !private ["PSo16NSObjectProtocol", "activateSession"]
+- ["PSo16NSObjectProtocol", "awakeWithContext"]
+- !private ["PSo16NSObjectProtocol", "defaultSession"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didDeactivate"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "numbers"]
+- ["PSo16NSObjectProtocol", "picker"]
+- ["PSo16NSObjectProtocol", "session"]
+- ["PSo16NSObjectProtocol", "sessionDidBecomeInactive"]
+- ["PSo16NSObjectProtocol", "sessionDidDeactivate"]
+- ["PSo16NSObjectProtocol", "sessionReachabilityDidChange"]
+- ["PSo16NSObjectProtocol", "sessionWatchStateDidChange"]
+- !private ["PSo16NSObjectProtocol", "setItems"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "updatePicker"]
+- ["PSo16NSObjectProtocol", "willActivate"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "title"]
+- !private ["CSo8NSString", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "append"]
+- !private ["Ps30RangeReplaceableCollectionType", "removeAll"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "append"]
+- !private ["Ps12SequenceType", "removeAll"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["CSo9WCSession", "activateSession"]
+- !private ["CSo9WCSession", "defaultSession"]
+- !private ["CSo9WCSession", "delegate"]
+- !private ["PSo17WCSessionDelegate", "WCSession"]
+- !private ["PSo17WCSessionDelegate", "WKPickerItem"]
+- !private ["PSo17WCSessionDelegate", "numbers"]
+- !private ["PSo17WCSessionDelegate", "picker"]
+- ["PSo17WCSessionDelegate", "session"]
+- ["PSo17WCSessionDelegate", "sessionDidBecomeInactive"]
+- ["PSo17WCSessionDelegate", "sessionDidDeactivate"]
+- ["PSo17WCSessionDelegate", "sessionReachabilityDidChange"]
+- ["PSo17WCSessionDelegate", "sessionWatchStateDidChange"]
+- ["PSo17WCSessionDelegate", ""]
+- ["CSo21WKInterfaceController", "AnyObject"]
+- ["CSo21WKInterfaceController", "Int"]
+- ["CSo21WKInterfaceController", "String"]
+- ["CSo21WKInterfaceController", "WCSession"]
+- ["CSo21WKInterfaceController", "WKInterfacePicker"]
+- !private ["CSo21WKInterfaceController", "WKPickerItem"]
+- ["CSo21WKInterfaceController", "awakeWithContext"]
+- ["CSo21WKInterfaceController", "didDeactivate"]
+- ["CSo21WKInterfaceController", "init"]
+- ["CSo21WKInterfaceController", "numbers"]
+- ["CSo21WKInterfaceController", "picker"]
+- ["CSo21WKInterfaceController", "session"]
+- ["CSo21WKInterfaceController", "sessionDidBecomeInactive"]
+- ["CSo21WKInterfaceController", "sessionDidDeactivate"]
+- ["CSo21WKInterfaceController", "sessionReachabilityDidChange"]
+- ["CSo21WKInterfaceController", "sessionWatchStateDidChange"]
+- ["CSo21WKInterfaceController", "updatePicker"]
+- ["CSo21WKInterfaceController", "willActivate"]
+- ["CSo21WKInterfaceController", ""]
+- !private ["CSo17WKInterfaceObject", "setItems"]
+- !private ["CSo17WKInterfacePicker", "setItems"]
+- !private ["CSo12WKPickerItem", "init"]
+- !private ["CSo12WKPickerItem", "title"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "append"]
+- !private ["Ps10_ArrayType", "removeAll"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "removeAll"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeAll"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "append"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "removeAll"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- "C33Sample_Watch2_Extension_Extension19InterfaceController"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "CSo9WCSession"
+- "PSo17WCSessionDelegate"
+- "CSo21WKInterfaceController"
+- !private "CSo17WKInterfaceObject"
+- !private "CSo17WKInterfacePicker"
+- !private "CSo12WKPickerItem"
+- !private "Ps10_ArrayType"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreLocation.swiftmodule"
+interface-hash: "fcc49136a69421060c930c68914a9581"

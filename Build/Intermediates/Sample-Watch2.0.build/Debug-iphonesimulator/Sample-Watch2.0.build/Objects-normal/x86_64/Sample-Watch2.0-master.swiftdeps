@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "05c73027830e5a2e9d12d5998d921729"
+build_time: [512374234, 260248000]
+inputs:
+  "/Users/ronaldogomes/Documents/projects/iphone/samples/Sample-Watch2.0/Sample-Watch2.0/ViewController.swift": [512374231, 0]
+  "/Users/ronaldogomes/Documents/projects/iphone/samples/Sample-Watch2.0/Sample-Watch2.0/AppDelegate.swift": [512370291, 0]
